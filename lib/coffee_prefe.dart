@@ -18,14 +18,14 @@ class _CoffeePrefeState extends State<CoffeePrefe> {
           children: [
             SmallBodyTest('Strenght: '),
             SmallBodyTest('3'),
-            SizedBox(),
+            SizedBox(width: 50),
           ],
         ),
         Row(
           children: [
             SmallBodyTest('Sugar: '),
             SmallBodyTest('3'),
-            SizedBox(),
+            SizedBox(width: 50),
           ],
         )
       ],
