@@ -11,7 +11,7 @@ class SmallBodyTest extends StatelessWidget {
         style: const TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 12,
-          color: Colors.white,
+          color: Colors.black,
         ));
   }
 }

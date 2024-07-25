@@ -1,3 +1,4 @@
+import 'package:coffee_shop/small_body_test.dart';
 import 'package:coffee_shop/styled_body_text.dart';
 import 'package:flutter/material.dart';
 
@@ -15,8 +16,16 @@ class _CoffeePrefeState extends State<CoffeePrefe> {
       children: [
         Row(
           children: [
-            StyledBodyText('Strenght: '),
-            StyledBodyText('3'),
+            SmallBodyTest('Strenght: '),
+            SmallBodyTest('3'),
+            SizedBox(),
+          ],
+        ),
+        Row(
+          children: [
+            SmallBodyTest('Sugar: '),
+            SmallBodyTest('3'),
+            SizedBox(),
           ],
         )
       ],
