@@ -29,6 +29,12 @@ class _HomeState extends State<Home> {
           padding: const EdgeInsets.all(20),
           child: const CoffeePrefe(),
         ),
+        Expanded(
+            child: Image.asset(
+          "assets/img/coffee_bg.jpg",
+          fit: BoxFit.fitWidth,
+          alignment: Alignment.bottomCenter,
+        ))
       ],
     );
   }
