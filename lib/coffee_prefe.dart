@@ -23,7 +23,7 @@ class _CoffeePrefeState extends State<CoffeePrefe> {
               color: Colors.brown.shade100,
               colorBlendMode: BlendMode.multiply,
             ),
-            const SizedBox(width: 50),
+            const Expanded(child: SizedBox(width: 50)),
             const SmallBodyTest("+")
           ],
         ),
@@ -39,7 +39,7 @@ class _CoffeePrefeState extends State<CoffeePrefe> {
               color: Colors.brown.shade100,
               colorBlendMode: BlendMode.multiply,
             ),
-            const SizedBox(width: 50),
+            const Expanded(child: SizedBox(width: 50)),
             const SmallBodyTest("+")
           ],
         ),
